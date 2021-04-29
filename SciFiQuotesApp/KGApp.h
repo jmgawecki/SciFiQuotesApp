@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void)getQuotesFromFile;
 
--(void)createArrayOfKGAppQuotes;
+-(void)createArrayOfKGQuotes;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
         KGApp *app = [[KGApp alloc] initWithFile:[desktopPath stringByAppendingPathComponent:@"quotes.txt"]];
         
         [app getQuotesFromFile];
-        [app createArrayOfKGAppQuotes];
+        [app createArrayOfKGQuotes];
         [app printQuote];
     }
     return 0;

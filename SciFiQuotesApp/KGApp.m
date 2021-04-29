@@ -31,7 +31,7 @@
 }
 
 
--(void)createArrayOfKGAppQuotes {
+-(void)createArrayOfKGQuotes {
     self.quotesArray = [[NSMutableArray<KGQuote *> alloc] init];
 
     NSArray<NSString *> *quotesArrayTemp = [self.stringOfQuotes componentsSeparatedByString:@"\n"];
