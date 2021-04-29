@@ -6,11 +6,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "KGApp.h"
+#import "KGQuote.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDesktopDirectory, NSUserDomainMask, YES);
+        NSString *desktopPath = [paths objectAtIndex:0];
+        
+        KGApp *app = [[KGApp alloc] initWithFile:[desktopPath stringByAppendingPathComponent:@"quotes.txt"]];
+        
+        [app getQuotesFromFile];
+        [app createArrayOfKGAppQuotes];
+        [app printQuote];
     }
     return 0;
 }

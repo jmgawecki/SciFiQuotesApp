@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EF0C50C02639C8F300B73CCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C50BF2639C8F300B73CCF /* main.m */; };
+		EF0C50C82639C98D00B73CCF /* KGApp.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C50C72639C98D00B73CCF /* KGApp.m */; };
+		EF0C50CB2639C99600B73CCF /* KGQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C50CA2639C99600B73CCF /* KGQuote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		EF0C50BC2639C8F300B73CCF /* SciFiQuotesApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SciFiQuotesApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0C50BF2639C8F300B73CCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF0C50C62639C98D00B73CCF /* KGApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGApp.h; sourceTree = "<group>"; };
+		EF0C50C72639C98D00B73CCF /* KGApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGApp.m; sourceTree = "<group>"; };
+		EF0C50C92639C99600B73CCF /* KGQuote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGQuote.h; sourceTree = "<group>"; };
+		EF0C50CA2639C99600B73CCF /* KGQuote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGQuote.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				EF0C50BF2639C8F300B73CCF /* main.m */,
+				EF0C50C62639C98D00B73CCF /* KGApp.h */,
+				EF0C50C72639C98D00B73CCF /* KGApp.m */,
+				EF0C50C92639C99600B73CCF /* KGQuote.h */,
+				EF0C50CA2639C99600B73CCF /* KGQuote.m */,
 			);
 			path = SciFiQuotesApp;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0C50CB2639C99600B73CCF /* KGQuote.m in Sources */,
 				EF0C50C02639C8F300B73CCF /* main.m in Sources */,
+				EF0C50C82639C98D00B73CCF /* KGApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
