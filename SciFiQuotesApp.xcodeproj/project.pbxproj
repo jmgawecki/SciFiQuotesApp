@@ -10,6 +10,8 @@
 		EF0C50C02639C8F300B73CCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C50BF2639C8F300B73CCF /* main.m */; };
 		EF0C50C82639C98D00B73CCF /* KGApp.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C50C72639C98D00B73CCF /* KGApp.m */; };
 		EF0C50CB2639C99600B73CCF /* KGQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C50CA2639C99600B73CCF /* KGQuote.m */; };
+		EF6A60C6263B14A2007BF040 /* SFApp.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6A60C5263B14A2007BF040 /* SFApp.m */; };
+		EF6A60C9263B14A9007BF040 /* SFQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6A60C8263B14A9007BF040 /* SFQuote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		EF0C50C72639C98D00B73CCF /* KGApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGApp.m; sourceTree = "<group>"; };
 		EF0C50C92639C99600B73CCF /* KGQuote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGQuote.h; sourceTree = "<group>"; };
 		EF0C50CA2639C99600B73CCF /* KGQuote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGQuote.m; sourceTree = "<group>"; };
+		EF6A60C4263B14A2007BF040 /* SFApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFApp.h; sourceTree = "<group>"; };
+		EF6A60C5263B14A2007BF040 /* SFApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFApp.m; sourceTree = "<group>"; };
+		EF6A60C7263B14A9007BF040 /* SFQuote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFQuote.h; sourceTree = "<group>"; };
+		EF6A60C8263B14A9007BF040 /* SFQuote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFQuote.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +69,25 @@
 		EF0C50BE2639C8F300B73CCF /* SciFiQuotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF6A60CA263B14AC007BF040 /* My Solution */,
 				EF0C50BF2639C8F300B73CCF /* main.m */,
+				EF6A60C4263B14A2007BF040 /* SFApp.h */,
+				EF6A60C5263B14A2007BF040 /* SFApp.m */,
+				EF6A60C7263B14A9007BF040 /* SFQuote.h */,
+				EF6A60C8263B14A9007BF040 /* SFQuote.m */,
+			);
+			path = SciFiQuotesApp;
+			sourceTree = "<group>";
+		};
+		EF6A60CA263B14AC007BF040 /* My Solution */ = {
+			isa = PBXGroup;
+			children = (
 				EF0C50C62639C98D00B73CCF /* KGApp.h */,
 				EF0C50C72639C98D00B73CCF /* KGApp.m */,
 				EF0C50C92639C99600B73CCF /* KGQuote.h */,
 				EF0C50CA2639C99600B73CCF /* KGQuote.m */,
 			);
-			path = SciFiQuotesApp;
+			path = "My Solution";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6A60C6263B14A2007BF040 /* SFApp.m in Sources */,
 				EF0C50CB2639C99600B73CCF /* KGQuote.m in Sources */,
+				EF6A60C9263B14A9007BF040 /* SFQuote.m in Sources */,
 				EF0C50C02639C8F300B73CCF /* main.m in Sources */,
 				EF0C50C82639C98D00B73CCF /* KGApp.m in Sources */,
 			);
